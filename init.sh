@@ -11,7 +11,7 @@ then
     echo "It seems the issue is still relevant: https://github.com/symfony/symfony/issues/${issue}"
     exit 1
 else
-    echo "The problem seems to be solved. Tested in the latest symfony version. https://github.com/symfony/symfony/issues/${issue}"
+    echo "The issue seems to be solved. Tested with the latest symfony version. https://github.com/symfony/symfony/issues/${issue}"
     exit 0
 fi
 
